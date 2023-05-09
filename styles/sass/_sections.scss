@@ -1,0 +1,56 @@
+section {
+  padding: 100px 0;
+}
+// About section
+.about {
+  background-color: $primaryText;
+}
+.aboutFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    img {
+      width: 150px;
+      border-radius: 50%;
+    }
+}
+
+//Skills section
+.skills {
+  background-color: $primaryBackground;
+  h3 {
+    margin-bottom: 50px;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+      li {
+        width: calc(100% / 4);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        img {
+          width: 80px;
+        }
+        p {
+          text-transform: uppercase;
+        }
+      }
+  }
+}
+
+//Projects section
+.projects {
+  background-color: $primaryText;
+}
+
+.projectFlex {
+  display: flex;
+  flex-wrap: wrap;
+  .projectContainer {
+    width: calc(100% / 2);
+    background-color: white;
+  }
+}

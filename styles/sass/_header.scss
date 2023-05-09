@@ -1,0 +1,25 @@
+header {
+  height: 100vh;
+  background-image: url("../assets/bg-image.jpg");
+  background-size: cover;
+}
+
+nav {
+  padding: 15px;
+  margin-bottom: 200px;
+  font-weight: 500;
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    a {
+      color: $primaryText;
+    }
+  }
+}
+
+.headContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

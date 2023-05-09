@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Roboto:wght@400;700&display=swap');
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: 'Lora', sans-serif;
+  font-size: bold;
+  color: $secondaryText;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  color: $primaryText;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: $primaryText;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin: 10px;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: $primaryBackground;
+    text-transform: uppercase;
+}
+
+p {
+  line-height: 2rem;
+}

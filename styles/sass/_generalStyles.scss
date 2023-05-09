@@ -1,0 +1,30 @@
+.wrapper {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0; 
+}
+
+.button {
+  background-color: $secondaryButton;
+  color: inherit;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
