@@ -50,7 +50,28 @@ section {
   display: flex;
   flex-wrap: wrap;
   .projectContainer {
-    width: calc(100% / 2);
+    width: calc((100% / 2 - 40px));
     background-color: white;
+    margin: 20px;
+    padding: 0 10px 30px 30px;
+  }
+}
+
+//Contacts section
+.contact {
+  background-color: $tertiaryBackground;
+  ul {
+    display: flex;
+    justify-content: center;
+    li {
+      width: 50px;
+      margin: 15px;
+    }
+  }
+  .contactText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
