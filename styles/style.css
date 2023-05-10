@@ -428,7 +428,24 @@ section {
   width: calc(50% - 40px);
   background-color: white;
   margin: 20px;
-  padding: 0 10px 30px 30px;
+  padding: 0;
+  min-width: 300px;
+}
+.projectFlex .imageContainer img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-width: 300px;
+}
+.projectFlex .textContainer {
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .contact {
@@ -470,4 +487,40 @@ footer p {
   color: #F8F4F3;
   margin: 0;
   padding: 20px;
+}
+
+@media (max-width: 1090px) {
+  .wrapper {
+    width: 95%;
+  }
+}
+@media (max-width: 840px) {
+  .projectFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projectFlex .projectContainer {
+    width: calc(100% - 40px);
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .button {
+    padding: 5px;
+  }
+  .skills ul li {
+    width: calc(50% - 10px);
+  }
+}
+@media (max-height: 650px) {
+  header {
+    min-height: 650px;
+  }
 }

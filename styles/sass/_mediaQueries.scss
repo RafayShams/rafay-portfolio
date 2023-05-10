@@ -1,0 +1,39 @@
+@media (max-width: 1090px) {
+  .wrapper {
+    width: 95%;
+  }
+}
+
+@media (max-width: 840px) {
+  .projectFlex {
+    flex-direction: column;
+    .projectContainer {
+      width: calc(100% - 40px);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .button {
+    padding: 5px;
+  }
+  .skills {
+    ul {
+      li {
+        width: calc(100% / 2 - 10px)
+      }
+    }
+  }
+}
+
+@media (max-height: 650px) {
+  header {
+    min-height: 650px;
+  }
+}
